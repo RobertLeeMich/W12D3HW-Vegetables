@@ -8,7 +8,7 @@ class Index extends React.Component {
       <div>
         <h1> Fruits Index Page </h1>
         <nav>
-          <a href = "/fruits/new">Create a new fruit</a>
+          <a href = "/fruits/New">Create a new fruit</a>
         </nav>
         <ul>
           {
@@ -27,7 +27,7 @@ class Index extends React.Component {
                       : 
                         `It is not ready to eat`
                     }
-                                      <br />
+                    <br />
                 </li>
               )
             })

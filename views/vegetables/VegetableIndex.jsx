@@ -8,6 +8,9 @@ class VegetableIndex extends React.Component {
       <div>
         <h1> Vegetable Index Page </h1>
         <ul>
+        <nav>
+          <a href = "/vegetables/New">Create a new Vegetable</a>
+        </nav>
           {
             vegetables.map((vegetable, i) => {
               return (

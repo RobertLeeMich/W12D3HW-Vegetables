@@ -2,7 +2,7 @@ const React = require('react')
 
 class Show extends React.Component {
   render () {
-    const { name, color ,readyToEat, img} = this.props.fruit
+    const { name, color, readyToEat, img } = this.props.fruit
 
     return (
       <div>
